@@ -16,11 +16,11 @@ public class TestNotebook extends BaseTestConfig {
         navTestingLink.click();
         Assert.assertEquals("https://notebook-9e0d4.web.app/login", driver.getCurrentUrl());
         WebElement inputId = driver.findElement(By.id("username"));
-        inputId.clear();
+//        inputId.clear();
         inputId.sendKeys("Greg");
 //        inoutId.sendKeys(Keys.ENTER);
         WebElement inputName = driver.findElement(By.id("password"));
-        inputName.clear();
+//        inputName.clear();
         inputName.sendKeys("gr");
 //        inoutName.sendKeys(Keys.ENTER);
         WebElement buttonUpdate = driver.findElement(By.id("login"));
